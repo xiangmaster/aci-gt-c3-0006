@@ -1,0 +1,15 @@
+name: C3 negative no agent
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo fixed > release.txt
+          git add release.txt
+          git commit -m release
+          git push origin HEAD
