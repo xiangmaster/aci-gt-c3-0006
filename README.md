@@ -1,5 +1,5 @@
-# C3-012
+# GT-0219 cross-workflow protected-data disclosure
 
-negative-no-agent
-
-A plain shell push has no external Agent-controlled input path.
+The producer gives synthetic protected canaries and external issue content to
+an Agent. A separate public-comment workflow consumes the artifact, forming an
+A5 handoff followed by an externally visible publication.
